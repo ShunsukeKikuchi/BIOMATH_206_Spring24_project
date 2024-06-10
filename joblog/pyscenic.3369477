@@ -1,0 +1,16 @@
+Job 3369477 started on:    n1931
+Job 3369477 started on:    Wed May 29 13:29:51 PDT 2024
+ 
+running_pyscenic
+
+pyscenic grn /u/home/s/skikuchi/scratch/BIOMATH206/data/filtered_RB05.loom $/u/home/s/skikuchi/project-xyang123/SCENICprotocol/example/allTFs_hg38.txt -o /u/home/s/skikuchi/scratch/BIOMATH206/grn/adj_RB05.csv --num_workers 20
+usage: pyscenic grn [-h] [-o OUTPUT] [-t] [-m {genie3,grnboost2}]
+                    [--seed SEED] [--num_workers NUM_WORKERS]
+                    [--client_or_address CLIENT_OR_ADDRESS]
+                    [--cell_id_attribute CELL_ID_ATTRIBUTE]
+                    [--gene_attribute GENE_ATTRIBUTE] [--sparse]
+                    expression_mtx_fname tfs_fname
+pyscenic grn: error: argument tfs_fname: can't open '$/u/home/s/skikuchi/project-xyang123/SCENICprotocol/example/allTFs_hg38.txt': [Errno 2] No such file or directory: '$/u/home/s/skikuchi/project-xyang123/SCENICprotocol/example/allTFs_hg38.txt'
+Job 3369477 ended on:    n1931
+Job 3369477 ended on:    Wed May 29 13:30:56 PDT 2024
+ 

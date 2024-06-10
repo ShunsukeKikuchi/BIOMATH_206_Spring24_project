@@ -1,0 +1,41 @@
+Job 3375692 started on:    n1011
+Job 3375692 started on:    Thu May 30 02:41:00 PDT 2024
+ 
+running_pyscenic
+
+pyscenic grn /u/home/s/skikuchi/scratch/BIOMATH206/data/filtered_RB05.loom /u/home/s/skikuchi/scratch/BIOMATH206/data/alt2_allTFs_hg38.txt -o /u/home/s/skikuchi/scratch/BIOMATH206/grn/adj2_RB05.csv --num_workers 20
+
+2024-05-30 02:41:22,494 - pyscenic.cli.pyscenic - INFO - Loading expression matrix.
+
+2024-05-30 02:41:26,636 - pyscenic.cli.pyscenic - INFO - Inferring regulatory networks.
+Numba: Attempted to fork from a non-main thread, the TBB library may be in an invalid state in the child process.
+Numba: Attempted to fork from a non-main thread, the TBB library may be in an invalid state in the child process.
+Numba: Attempted to fork from a non-main thread, the TBB library may be in an invalid state in the child process.
+Numba: Attempted to fork from a non-main thread, the TBB library may be in an invalid state in the child process.
+Numba: Attempted to fork from a non-main thread, the TBB library may be in an invalid state in the child process.
+Numba: Attempted to fork from a non-main thread, the TBB library may be in an invalid state in the child process.
+Numba: Attempted to fork from a non-main thread, the TBB library may be in an invalid state in the child process.
+Numba: Attempted to fork from a non-main thread, the TBB library may be in an invalid state in the child process.
+Numba: Attempted to fork from a non-main thread, the TBB library may be in an invalid state in the child process.
+Numba: Attempted to fork from a non-main thread, the TBB library may be in an invalid state in the child process.
+Numba: Attempted to fork from a non-main thread, the TBB library may be in an invalid state in the child process.
+Numba: Attempted to fork from a non-main thread, the TBB library may be in an invalid state in the child process.
+Numba: Attempted to fork from a non-main thread, the TBB library may be in an invalid state in the child process.
+Numba: Attempted to fork from a non-main thread, the TBB library may be in an invalid state in the child process.
+Numba: Attempted to fork from a non-main thread, the TBB library may be in an invalid state in the child process.
+Numba: Attempted to fork from a non-main thread, the TBB library may be in an invalid state in the child process.
+Numba: Attempted to fork from a non-main thread, the TBB library may be in an invalid state in the child process.
+/u/home/s/skikuchi/project-xyang123/miniconda3/envs/scenic_protocol/lib/python3.6/contextlib.py:88: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+
+2024-05-30 02:57:04,922 - pyscenic.cli.pyscenic - INFO - Writing results to file.
+preparing dask client
+parsing input
+creating dask graph
+16 partitions
+computing dask graph
+not shutting down client, client was created externally
+finished
+Job 3375692 ended on:    n1011
+Job 3375692 ended on:    Thu May 30 02:57:07 PDT 2024
+ 
